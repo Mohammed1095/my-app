@@ -1,10 +1,10 @@
 # Movies Collection React app
 
-## [Demo](https://react-js-netflix-clone.netlify.app/)
+## [Demo]
 
 ---
 
-I have create Netflix Clone Using TMDB API and React Js
+I have create this app Using TMDB API and typescript and React JS
 
 ## Technology Used
 
@@ -14,7 +14,7 @@ I have create Netflix Clone Using TMDB API and React Js
 
 #### 3. `Axios package for APIs `
 
-###  4. 'npm install twin.macro' for styled and tailwind css styling
+####  4. 'npm install twin.macro' for styled and tailwind css styling
 
 Step To Clone Repo
 
