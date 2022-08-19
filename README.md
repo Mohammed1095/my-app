@@ -12,7 +12,9 @@ I have create Netflix Clone Using TMDB API and React Js
 
 #### 2. `TMDB API ` (https://www.themoviedb.org/documentation/api)
 
-#### 3. `Axios package for APIs ` 
+#### 3. `Axios package for APIs `
+
+###  4. 'npm install twin.macro' for styled and tailwind css styling
 
 Step To Clone Repo
 
