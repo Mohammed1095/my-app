@@ -1,4 +1,4 @@
-# Netflix Clone React
+# Movies Collection React app
 
 ## [Demo](https://react-js-netflix-clone.netlify.app/)
 
@@ -12,13 +12,15 @@ I have create Netflix Clone Using TMDB API and React Js
 
 #### 2. `TMDB API ` (https://www.themoviedb.org/documentation/api)
 
+#### 3. `Axios package for APIs ` 
+
 Step To Clone Repo
 
 #### 1. Create a Github account.
 
 #### 2. Open Command line interface in your pc
 
-#### 3. Copy The Repo URL [https://github.com/pruthvi7384/Netflix--Clone-React.git](https://github.com/pruthvi7384/Netflix--Clone-React.git).
+#### 3. Copy The Repo URL [https://github.com/Mohammed1095/my-app](https://github.com/Mohammed1095/my-app).
 
 #### 4. After Clone This Repo Install All Dependency using Enter Command in termina `npm i`.
 
@@ -26,10 +28,6 @@ Step To Clone Repo
 
 ## Site Screen Shorts
 
-<img src="https://github.com/pruthvi7384/Netflix--Clone-React/blob/master/img1.png">
 
-<img src="https://github.com/pruthvi7384/Netflix--Clone-React/blob/master/img2.png">
-
-<img src="https://github.com/pruthvi7384/Netflix--Clone-React/blob/master/img3.png">
 
 ### THANK YOU !!!
