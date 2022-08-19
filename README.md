@@ -1,36 +1,35 @@
-Table of Contents
-About The Project
-Built With
-Getting Started
-Prerequisites
-Installation
-Usage
-Contact
-About The Project
-Built With
-React
-Typescript
-Node.js
-MongoDB
-Getting Started
-To get a local copy up and running follow these simple steps.
+# Netflix Clone React
 
-Prerequisites
-Install latest version of npm
+## [Demo](https://react-js-netflix-clone.netlify.app/)
 
-npm
-npm install npm@latest -g
-Installation
-Clone the project
-git clone https://github.com/crookedfingerworks/roseflix.git
-Go to project directory and Install NPM packages
-npm install
-Create .env file
-Request an API key from TMDB and add it to your .env
-REACT_APP_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-In a new directory, clone the backend and follow installation instructions on its README
-git clone https://github.com/crookedfingerworks/roseflix-backend
-You should now have the server running locally. Add the url to your .env
-REACT_APP_SERVER_URL=http://localhost:8080
-Start the application
-npm start
+---
+
+I have create Netflix Clone Using TMDB API and React Js
+
+## Technology Used
+
+#### 1. `React js`
+
+#### 2. `TMDB API ` (https://www.themoviedb.org/documentation/api)
+
+Step To Clone Repo
+
+#### 1. Create a Github account.
+
+#### 2. Open Command line interface in your pc
+
+#### 3. Copy The Repo URL [https://github.com/pruthvi7384/Netflix--Clone-React.git](https://github.com/pruthvi7384/Netflix--Clone-React.git).
+
+#### 4. After Clone This Repo Install All Dependency using Enter Command in termina `npm i`.
+
+#### 5. After Start server using `npm start`
+
+## Site Screen Shorts
+
+<img src="https://github.com/pruthvi7384/Netflix--Clone-React/blob/master/img1.png">
+
+<img src="https://github.com/pruthvi7384/Netflix--Clone-React/blob/master/img2.png">
+
+<img src="https://github.com/pruthvi7384/Netflix--Clone-React/blob/master/img3.png">
+
+### THANK YOU !!!
