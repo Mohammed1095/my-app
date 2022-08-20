@@ -14,8 +14,8 @@ I have create this app Using TMDB API and typescript and React JS
 
 #### 3. `Axios package for APIs `
 
-#### 4.`npm install twin.macro for styled and tailwind css styling`
- 
+#### 4. `npm install twin.macro for styled and tailwind css styling`
+
 Step To Clone Repo
 
 #### 1. Create a Github account.
@@ -29,7 +29,5 @@ Step To Clone Repo
 #### 5. After Start server using `npm start`
 
 ## Site Screen Shorts
-
-
 
 ### THANK YOU !!!

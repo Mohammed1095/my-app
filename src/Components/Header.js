@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { HeaderContainer } from "./Header.styles";
+import {
+  HeaderContainer,
+  SearchIcon,
+  Search,
+  Picture,
+  SearchInput,
+} from "./Header.styles";
 
 function Header() {
   const [isDark, setIsDark] = useState(false);
+  const [searchActive, setSearchActive] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -18,14 +26,20 @@ function Header() {
 
   return (
     <HeaderContainer dark={isDark}>
-      <img
-        src="https://iconape.com/wp-content/themes/svvvg/v01/imgs/logoanimated.svg?v=2"
-        alt=""
-      />
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-        alt=""
-      />
+      <Picture src={`/images/users/1.png`} />
+      <Search>
+        <SearchIcon
+          onClick={() => setSearchActive((searchActive) => !searchActive)}
+        >
+          <img src="/images/icons/search.png" alt="Search" />
+        </SearchIcon>
+        <SearchInput
+          value={searchTerm}
+          onChange={({ target }) => setSearchTerm(target.value)}
+          placeholder="Search films and series"
+          active={searchActive}
+        />
+      </Search>
     </HeaderContainer>
   );
 }
