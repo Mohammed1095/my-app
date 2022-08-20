@@ -5,6 +5,7 @@ import Movies from "./Components/Movies";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 
+// ///////////////////
 const URL = "https://api.themoviedb.org/3";
 const API_KEY = "530bea0db280cfab0c87d9b46efe504f";
 
@@ -12,7 +13,7 @@ const endpoints = {
   originals: "/discover/tv",
   trending: "/trending/all/week",
 };
-
+// /////////////////////
 function App() {
   const [originals, setOriginals] = useState([]);
   const [trending, setTrending] = useState([]);

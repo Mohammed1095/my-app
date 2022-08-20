@@ -16,6 +16,8 @@ I have create this app Using TMDB API and typescript and React JS
 
 #### 4. `npm install twin.macro for styled and tailwind css styling`
 
+#### 5. `TypeScript`
+
 Step To Clone Repo
 
 #### 1. Create a Github account.
