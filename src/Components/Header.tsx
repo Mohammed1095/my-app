@@ -20,7 +20,11 @@ function Header() {
     });
 
     return () => {
-      window.removeEventListener("scroll", null);
+      window.removeEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          setIsDark(true);
+        } else setIsDark(false);
+      });
     };
   }, []);
 
@@ -35,7 +39,9 @@ function Header() {
         </SearchIcon>
         <SearchInput
           value={searchTerm}
-          onChange={({ target }:React.ChangeEvent<HTMLInputElement>) => setSearchTerm(target.value)}
+          onChange={({ target }: React.ChangeEvent<HTMLInputElement>) =>
+            setSearchTerm(target.value)
+          }
           placeholder="Search films and series"
           active={searchActive}
         />
