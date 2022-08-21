@@ -1,10 +1,18 @@
-import tw from "twin.macro"; /* eslint-disable-line import/no-unassigned-import */
-import styledComponent, { css as cssProperty } from "styled-components";
-declare module "twin.macro" {
-  const css: typeof cssProperty;
-  const styled: typeof styledComponent;
-}
-export const HeaderContainer = styledComponent.div`
+import tw from "twin.macro";
+import styled from "@emotion/styled";
+
+type Picture = {
+  src: string;
+};
+
+type HeaderContainer = {
+  dark: boolean;
+};
+
+type SearchInput = {
+  active: boolean;
+};
+export const HeaderContainer = styled.div<HeaderContainer>`
   ${tw`
     flex
     justify-between
@@ -22,7 +30,7 @@ export const HeaderContainer = styledComponent.div`
     `}
   }
 `;
-export const SearchInput = styledComponent.input`
+export const SearchInput = styled.input<SearchInput>`
     background-color: #44444459;
     color: white;
     border: 1px solid white;
@@ -35,7 +43,7 @@ export const SearchInput = styledComponent.input`
     width: ${({ active }) => (active === true ? "200px" : "0px")};
 `;
 
-export const SearchIcon = styledComponent.button`
+export const SearchIcon = styled.button`
   cursor: pointer;
   background-color: transparent;
   border: 0;
@@ -48,7 +56,7 @@ export const SearchIcon = styledComponent.button`
   }
 `;
 
-export const Search = styledComponent.div`
+export const Search = styled.div`
   dsiplay: flex;
   align-items: center;
 
@@ -62,7 +70,7 @@ export const Search = styledComponent.div`
   }
 `;
 
-export const Picture = styledComponent.button`
+export const Picture = styled.button<Picture>`
   background: url(${({ src }) => src});
   background-size: contain;
   border: 0;

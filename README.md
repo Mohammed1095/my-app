@@ -14,7 +14,7 @@ I have create this app Using TMDB API and typescript and React JS
 
 #### 3. `Axios package for APIs `
 
-#### 4. `npm install twin.macro for styled and tailwind css styling`
+#### 4. `npm install twin.macro & @emotion/styled for styling`
 
 #### 5. `TypeScript`
 

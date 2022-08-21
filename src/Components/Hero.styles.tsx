@@ -1,7 +1,11 @@
-import tw from "twin.macro"; /* eslint-disable-line import/no-unassigned-import */
-import styledComponent from "styled-components";
+import tw from "twin.macro";
+import styled from "@emotion/styled";
 
-export const HeroContainer = styledComponent.div`
+type HeroContainer = {
+  background?: string;
+};
+
+export const HeroContainer = styled.div<HeroContainer>`
   ${tw`
     p-8
   `}
@@ -11,7 +15,7 @@ export const HeroContainer = styledComponent.div`
     `background: url('https://image.tmdb.org/t/p/original${props.background}');`}
 `;
 
-export const HeroTitle = styledComponent.h1`
+export const HeroTitle = styled.h1`
   ${tw`
     text-5xl
     font-bold
@@ -20,7 +24,7 @@ export const HeroTitle = styledComponent.h1`
   margin-top: 40vh;
 `;
 
-export const HeroDescription = styledComponent.p`
+export const HeroDescription = styled.p`
   ${tw`
     font-medium
     text-lg
@@ -31,7 +35,7 @@ export const HeroDescription = styledComponent.p`
   line-height: 1.3;
 `;
 
-export const HeroButton = styledComponent.button`
+export const HeroButton = styled.button`
   ${tw`
     cursor-pointer
     font-bold
