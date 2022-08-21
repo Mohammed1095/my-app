@@ -15,8 +15,7 @@ interface Movie {
 }
 function Hero({ movie }: Props) {
   return (
-    // <HeroContainer background={movie?.backdrop_path}>
-    <HeroContainer>
+    <HeroContainer background={movie?.backdrop_path}>
       <HeroTitle>{movie?.name}</HeroTitle>
       <HeroDescription>{movie?.overview}</HeroDescription>
       <HeroButton>Play</HeroButton>
